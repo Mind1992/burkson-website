@@ -1,0 +1,13 @@
+{
+  "name": "Burkson",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Sergii Mertsalov",
+      "email": "sergmerts@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#~5.5.0"
+  }
+}
