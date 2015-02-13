@@ -32,20 +32,17 @@ $(document).ready(function () {
   });
 
   $(document).scroll(function(){
-    if($(this).scrollTop() > 750 && $(this).scrollTop() < 1400 )
-    {
+    if($(this).scrollTop() > 750 && $(this).scrollTop() < 1400 ) {
       $('.first-pic').addClass('hover-over');
     } else {
       $('.first-pic').removeClass('hover-over');
     }
-    if($(this).scrollTop() > 1500 && $(this).scrollTop() < 1850)
-    {
+    if($(this).scrollTop() > 1500 && $(this).scrollTop() < 1850){
       $('.second-pic').addClass('hover-over');
     } else {
       $('.second-pic').removeClass('hover-over');
     }
-    if($(this).scrollTop() > 1850 && $(this).scrollTop() < 2450)
-    {
+    if($(this).scrollTop() > 1850 && $(this).scrollTop() < 2450) {
       $('.third-pic').addClass('hover-over');
     } else {
       $('.third-pic').removeClass('hover-over');

@@ -10,12 +10,50 @@
   }
 }
 
-@media screen and (min-width: 1151px ) and (max-width: 1225px ) {
+@media screen and (min-width: 1151px ) and (max-width: 1900px ) {
   nav > ul.inline-list li {
     margin-left: 2%;
   }
   #main-head h1 > a:nth-child(2) {
     display: none;
+  }
+  .timbr {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .porsche-logo {
+    padding-top: auto;
+    text-align: center;
+  }
+
+  .yakima-logo {
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .fisker-logo {
+    text-align: center;
+    padding-top: auto;
+    padding-right: 120px;
+  }
+
+  .les-logo {
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .client-logo {
+    text-align: center;
+  }
+
+  .logo-top-row .client-logo:nth-child(4) {
+    padding-top: auto;
+  }
+
+  .row > .yakima-logo + .client-logo {
+    padding-top: auto;
   }
 }
 
@@ -25,6 +63,12 @@
   }
   #main-head h1 > a:nth-child(2) {
     display: none;
+  }
+
+  .timbr {
+    height: auto;
+    width: 100%;
+    display: block;
   }
 }
 
@@ -98,11 +142,6 @@
     line-height: 40px;
   }
 
-/* #about-us {
-  margin-top: -100px;
-}*/
-
-
   #team-wrap .row div.small-12 > span {
     font-size: 20px;
   }
@@ -155,7 +194,7 @@
   }
 
   .timbr {
-    height: 300px;
+    height: auto;
     width: 100%;
     display: block;
   }

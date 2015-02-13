@@ -431,11 +431,9 @@ img.featured-picture.hover-over {
   box-shadow:0 0 12px rgba(0, 0, 0, 0.6);
   -webkit-filter:grayscale(0);
 }
-
 /* Client section end */
 
 /* Product section */
-
 .products {
   margin-top: 80px;
 }
@@ -446,7 +444,7 @@ img.featured-picture.hover-over {
 }
 
 .timbr {
-  height: 363px;
+  height: auto;
   width: 100%;
   display: block;
 }
@@ -462,7 +460,11 @@ img.featured-picture.hover-over {
 }
 
 .products > .row > div.small-6:nth-child(1) {
-  border-right: 2px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.products > .row > div.small-6:nth-child(2) {
+  border-left: 1px solid #fff;
 }
 
 .cover {
@@ -499,7 +501,6 @@ img.featured-picture.hover-over {
   letter-spacing: 0.0325em;
   width: 90%;
 }
-
 /* Product section end */
 
 /* Team section */
