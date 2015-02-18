@@ -1,4 +1,4 @@
-@media screen and (min-height: 769px) and (max-width: 1366px) {
+@media screen and (min-height: 769px) and (min-width: 1366px) and (max-width: 1425px)  {
   #main-head {
     height: 775px;
   }
@@ -9,3 +9,28 @@
     margin-top: 21%;
   }
 }
+
+@media screen and (min-height: 769px) and (min-width: 1425px) and (max-width: 1625px)  {
+  #main-head {
+    height: 775px;
+  }
+  .top-arrow {
+    margin: 10% auto 0;
+  }
+  #main-header {
+    margin-top: 21%;
+  }
+}
+
+@media screen and (min-height: 769px) and (min-width: 1625px) and (max-width: 1825px)  {
+  #main-head {
+    height: 775px;
+  }
+  .top-arrow {
+    margin: 10% auto 0;
+  }
+  #main-header {
+    margin-top: 18%;
+  }
+}
+
