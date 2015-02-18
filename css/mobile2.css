@@ -63,11 +63,6 @@
     display: none !important;
   }
 
-
- /* #team-wrap .row:nth-child(3) div.small-12:nth-child(3) {
-    display: none;
-  }*/
-
   .cover {
     position: absolute;
     top: 0; right: 0;
@@ -531,11 +526,11 @@
     margin-left: auto;
   }
 
-  .add-us:hover {
+  /*.add-us:hover {
 
     color: #55B0AC;
     transition: color 1s ease 0s;
-  }
+  }*/
 
   .add-us {
     transition: color 1s ease 0s;
@@ -596,5 +591,26 @@
 
   #about + div {
     height: 1380px;
+  }
+}
+
+
+@media screen and (min-width: 800px ) and (max-width: 1022px ) {
+  .cover p:nth-child(1) {
+    font-family: 'MavenProMedium';
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-bottom: 4px;
+  }
+
+  .cover p:nth-child(2) {
+    font-family: 'MavenProLight';
+    font-size: 0.9em;
+    letter-spacing: 0.0325em;
+    width: 90%;
   }
 }

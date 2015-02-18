@@ -102,6 +102,10 @@
   margin-left: 70%;
 }
 
+.overlay > nav > ul li a:hover {
+  color: #fff;
+}
+
 nav > ul.inline-list {
   margin-top: 30px;
 }
@@ -320,6 +324,7 @@ div.dark + p {
   height: 100px;
   margin-top: 130px;
   margin-left: 50px;
+  cursor: auto !important;
 }
 
 .featured-picture {
@@ -345,6 +350,7 @@ div.dark + p {
   background: url(../assets/arrows_12.png) no-repeat;
   height: 100px;
   margin-top: 130px;
+  cursor: auto !important;
 }
 
 img.featured-picture {
@@ -736,7 +742,7 @@ img ~ a {
 }
 
 #main-footer a div.large-3:hover {
-  background-color: #5A9693;
+  background-color: #5A9693 !important;
   cursor: pointer;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
