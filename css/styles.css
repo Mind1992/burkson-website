@@ -318,7 +318,6 @@ div.dark + p {
 .arrow-to-mitchell {
   background: url(../assets/arrows_06.png) no-repeat;
   height: 100px;
-  cursor: pointer;
   margin-top: 130px;
   margin-left: 50px;
 }
@@ -345,7 +344,6 @@ div.dark + p {
 .arrow-to-porsche {
   background: url(../assets/arrows_12.png) no-repeat;
   height: 100px;
-  cursor: pointer;
   margin-top: 130px;
 }
 
@@ -507,6 +505,10 @@ img.featured-picture.hover-over {
 .ridestyler {
   display: block;
   margin: 60px auto 0;
+}
+
+.team-wrapper-2 {
+  display: none;
 }
 
 .team-wrapper {
@@ -720,8 +722,8 @@ img ~ a {
   letter-spacing: 0.0325em;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 75px;
   display: block;
+  padding-top: 40px;
 }
 
 #main-footer > a > div.large-3  > p {
@@ -734,7 +736,7 @@ img ~ a {
 }
 
 #main-footer a div.large-3:hover {
-  background-color: #5A96D9;
+  background-color: #5A9693;
   cursor: pointer;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;

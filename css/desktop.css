@@ -1,0 +1,255 @@
+@media screen and (min-width: 1651px ) and (max-width: 1920px ) {
+
+  .arrow-to-mitchell {
+    background: url(../assets/arrows_06.png) no-repeat;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 180px;
+    margin-left: 90px;
+  }
+
+  .arrow-to-mitchell {
+    width: 2em;
+  }
+
+  .arrow-to-porsche {
+    background: url(../assets/arrows_12.png) no-repeat;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 180px;
+  }
+
+  nav > ul.inline-list li {
+    margin-left: 2%;
+  }
+  #main-head h1 > a:nth-child(2) {
+    display: none;
+  }
+  .row.featured-background, .row.featured-background.white {
+    height: auto;
+  }
+
+  .timbr {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .porsche-logo {
+    padding-top: auto;
+    text-align: center;
+  }
+
+  .yakima-logo {
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .fisker-logo {
+    text-align: center;
+    padding-top: auto;
+    padding-right: 120px;
+  }
+
+  .les-logo {
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .client-logo {
+    text-align: center;
+  }
+
+  .logo-top-row .client-logo:nth-child(4) {
+    padding-top: auto;
+  }
+
+  .row > .yakima-logo + .client-logo {
+    padding-top: auto;
+  }
+
+  .featured-picture {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1079px ) and (max-width: 1650px ) {
+  nav > ul.inline-list li {
+    margin-left: 1%;
+  }
+  #main-head h1 > a:nth-child(2) {
+    display: none;
+  }
+
+  .timbr {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .client-logo {
+    padding: 70px;
+    border: 1px solid #c8c8c8;
+    border-right: none;
+    height: 150px;
+  }
+
+  .porsche-logo {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .yakima-logo {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .fisker-logo {
+    text-align: center;
+    padding-top: 45px;
+  }
+
+  .les-logo {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .arrow-to-mitchell {
+    width: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px ) and (max-width: 1078px ) {
+  .small-screen {
+    display: none;
+  }
+
+  #trigger-overlay  {
+    display: none;
+  }
+  nav > ul.inline-list li {
+    margin-left: 0.1%;
+  }
+  #main-head h1 > a:nth-child(2) {
+    display: none;
+  }
+
+  #map > .map-overlay {
+    width: 340px;
+  }
+
+  .arrow-to-mitchell {
+    width: 3em;
+  }
+
+  .featured-work-left > p {
+    font-size: 0.91em;
+  }
+
+  .featured-background {
+    height: 315px;
+  }
+
+  .featured-picture {
+    height: 315px;
+  }
+
+  .featured-work-left > h4 {
+    font-size: 1em
+  }
+
+  .client-logo {
+    padding: 70px;
+    border: 1px solid #c8c8c8;
+    border-right: none;
+    height: 150px;
+  }
+
+  .porsche-logo {
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+
+  .yakima-logo {
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+
+  .fisker-logo {
+    padding-left: 100px;
+    padding-top: 45px;
+  }
+
+  .les-logo {
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+
+  .client-logo {
+    -webkit-filter:grayscale(0);
+  }
+
+  #about-info {
+    width: 85%;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    line-height: 40px;
+  }
+
+  #team-wrap .row div.small-12 > span {
+    font-size: 20px;
+  }
+
+  #team-wrap .row div.small-12 > div > .developer-name {
+    font-family: 'MavenProLight';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+  }
+
+  #team-wrap .row div.small-12 > div > .developer-title {
+    font-family: 'MavenProLight';
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cover {
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0px;
+    width: 100%;
+    height: 100%;
+    color: rgba(255,255,255,0);
+    transition: all .5s linear;
+    padding-left: 50px;
+  }
+
+  .cover p:nth-child(1) {
+    font-family: 'MavenProMedium';
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 4px;
+  }
+
+  .cover p:nth-child(2) {
+    font-family: 'MavenProLight';
+    font-size: 1em;
+    letter-spacing: 0.0325em;
+    width: 90%;
+  }
+
+  .timbr {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+}
